@@ -1,6 +1,11 @@
-1¡¢Æô¶¯mongodb
-2¡¢ÔÚeclipseÖĞDeBugÔËĞĞmy.app.sample.App
-3¡¢·¢ËÍÈçÏÂhttp post:
-URL£º http://localhost:8084/my-app-sample/product-mgr/create?context=3||123445|
-POSTÊı¾İ:ÈÎÒâjson
+ç›®çš„ï¼šåœ¨eclipseä¸­ç›´æ¥è¿è¡Œå’Œè°ƒè¯•APP
+
+APPçš„é…ç½®æ–‡ä»¶ä¸ºsrc/main/config/my-app-sample.json
+
+1ã€å¯åŠ¨mongodbï¼Œå»ºåº“MyTest
+2ã€åœ¨eclipseä¸­DeBugè¿è¡Œmy.app.sample.App
+3ã€å‘é€å¦‚ä¸‹http post:
+URLï¼š http://localhost:8084/my-app-sample/product-mgr/create?context=3||123445|
+POSTæ•°æ®:ä»»æ„json
 	{"name":"Jack"}
+4ã€æ£€æŸ¥mongodbåº“MyTestæ˜¯å¦å†™å…¥æˆåŠŸ
