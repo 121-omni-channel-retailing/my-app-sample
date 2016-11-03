@@ -5,6 +5,7 @@ import java.util.List;
 
 import my.app.sample.catelog.CatelogManagementComponent;
 import my.app.sample.product.ProductManagementComponent;
+import my.app.sample.salesorder.SalesOrderComponent;
 import otocloud.framework.app.engine.AppServiceImpl;
 import otocloud.framework.app.engine.WebServer;
 import otocloud.framework.app.function.AppActivity;
@@ -15,7 +16,7 @@ import otocloud.framework.app.function.AppInitActivityImpl;
  * @date 2015年11月6日
  * @author lijing@yonyou.com
  */
-public class ProductManagementService extends AppServiceImpl
+public class SalesManagementService extends AppServiceImpl
 {
 
 	//创建服务初始化组件
@@ -41,6 +42,9 @@ public class ProductManagementService extends AppServiceImpl
 				
 		ProductManagementComponent productCom = new ProductManagementComponent();
 		retActivities.add(productCom);
+		
+		SalesOrderComponent soCom = new SalesOrderComponent();
+		retActivities.add(soCom);
 
 		return retActivities;
 	}

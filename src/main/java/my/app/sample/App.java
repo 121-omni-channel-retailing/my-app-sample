@@ -19,7 +19,7 @@ public class App extends AppServiceEngineImpl
 	//创建此APP中租户的应用服务实例时调用
 	@Override
 	public AppService newAppInstance() {
-		return new ProductManagementService();
+		return new SalesManagementService();
 	}
 
 	//创建此APP统一的web入口服务
