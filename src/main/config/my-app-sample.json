@@ -11,7 +11,7 @@
 			"isolation_vertx_pool": false,			
 			"run_webserver": true,
 			"webserver_config": {
-				"webserver_port": 8084,
+				"webserver_port": 8085,
 				"eventbus_enabled": true,
 				"static_res_service": true
 			},
